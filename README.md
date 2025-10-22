@@ -1,6 +1,7 @@
 # cli_api_Local-location
 
-各种CLI的api/mcp server/等文件 本地具体位置/详情
+各种CLI的api/mcp server/官方配置文档地址（精确到子选项）等文件 本地具体位置/详情/链接
+
 ---
 
 ## 📋 MCP 服务器列表
