@@ -10,8 +10,8 @@ claude code、gemini、codex、droid、
 
 | MCP | 更新 | IDE | JSON 配置 | 说明 |
 |:---|:---:|:---:|:---|:---|
-| **[Claude code](https://docs.claude.com/en/docs/claude-code/settings)** | `01-15` | **api** | `C:\Users\`<br>`Administrator\`<br>`AppData\Roaming\`<br>`Claude\`<br>`claude_desktop_`<br>`config.json` | Mac: `/Users/Name/Docs`<br>Win: `C:\Users\Name\Docs` |
-|  |  | **mcp servers** | `{"filesystem":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`filesystem",`<br>`"C:\\Users\\`<br>`Name\\Docs"],`<br>`"disabled":false}}` | 路径用双反斜杠 `\\` |
+| **[Claude code](https://docs.claude.com/en/docs/claude-code/settings)** | `01-15` | **api** | `"C:\Users\Administrator\.claude\settings.json"` | Mac: `/Users/Name/Docs`<br>Win: `C:\Users\Name\Docs` |
+|  |  | **mcp servers** | `"C:\Users\Administrator\AppData\Roaming\Claude\claude_desktop_config.json"` | 路径用双反斜杠 `\\` |
 |  |  | **备注** | `{"mcpServers":{`<br>`"filesystem":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`filesystem",`<br>`"${workspace`<br>`Folder}"]}}}` | 支持 `${workspaceFolder}` |
 | **[GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/github)** | `01-15` | **Claude Desktop** | `{"mcpServers":{`<br>`"github":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`github"],`<br>`"env":{"GITHUB_`<br>`PERSONAL_ACCESS_`<br>`TOKEN":"ghp_xxx"}}}}` | 🔑 [获取 Token](https://github.com/settings/tokens) |
 |  |  | **Cline** | `{"github":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`github"],`<br>`"env":{"GITHUB_`<br>`PERSONAL_ACCESS_`<br>`TOKEN":"${env:`<br>`GITHUB_TOKEN}"},`<br>`"disabled":false}}` | 🔒 用环境变量 |
