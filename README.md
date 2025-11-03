@@ -1,6 +1,6 @@
 # cli_api_Local-location
 
-各种CLI的api/mcp server/官方配置文档地址（精确到子选项）等文件 本地具体位置/详情/链接
+各种CLI/插件的api/mcp server/官方配置文档地址（精确到子选项）等文件 本地具体位置/详情/链接
 claude code、gemini、codex、droid、
 
 
@@ -8,7 +8,7 @@ claude code、gemini、codex、droid、
 
 ## 📋 MCP 服务器列表
 
-| MCP | IDE | JSON 配置 | 说明 |
+| IDE | MCP | JSON 配置 | 说明 |
 |:---|:---:|:---|:---|
 | **[Claude code](https://docs.claude.com/en/docs/claude-code/settings)** | **api** | `"C:\Users\Administrator\.claude\settings.json"` | Mac: `/Users/Name/Docs`<br>Win: `C:\Users\Name\Docs` |
 |  | **mcp server** | ` C:\Users\ａ\AppData\Roaming\Claude\claude_desktop_config.json` | 支持 `${workspaceFolder}` |
