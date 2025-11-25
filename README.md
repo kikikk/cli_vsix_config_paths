@@ -20,5 +20,5 @@ claude code、gemini、codex、droid、
 |  | **备注** | `{"mcpServers":{`<br>`"brave-search":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`brave-search"],`<br>`"env":{"BRAVE_`<br>`API_KEY":"${env:`<br>`BRAVE_API_KEY}"}}}}` | 同上 |
 | **[augment](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)** | **api** | `{"mcpServers":{`<br>`"postgres":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`postgres",`<br>`"postgresql://`<br>`user:pwd@localhost:`<br>`5432/db"],"env":{}}}}` | 格式: `postgresql://[user]:[pwd]@[host]:[port]/[db]` |
 |  | **mcp server** | `"C:\Users\ａ\AppData\Roaming\Code\User\globalStorage\augment.vscode-augment\augment-global-state\mcpServers.json"` | 同上 |
-| **[Antigravity](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** | **mcp** | `{"C:\Users\ａ\.gemini\antigravity\mcp_config.json"` | 🤖 [创建 Slack App](https://api.slack.com/apps) |
+| **[Antigravity](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** | **mcp** | `"C:\Users\ａ\.gemini\antigravity\mcp_config.json"` | 🤖 [创建 Slack App](https://api.slack.com/apps) |
 |  | **备注** |  |  |
