@@ -10,7 +10,7 @@ claude code、gemini、codex、droid、
 
 | IDE | MCP | JSON 配置 | 说明 |
 |:---|:---:|:---|:---|
-| **[Claude code](https://docs.claude.com/en/docs/claude-code/settings)** | **api** | `"C:\Users\Administrator\.claude\settings.json"` | Mac: `/Users/Name/Docs`<br>Win: `C:\Users\Name\Docs` |
+| **[Claude code](https://docs.claude.com/en/docs/claude-code/settings)** | **api** | `"C:\Users\Administrator\.claude\settings.json"  "C:\Users\ａ\.claude.json"` | Mac: `/Users/Name/Docs`<br>Win: `C:\Users\Name\Docs` |
 |  | **mcp server** | ` C:\Users\ａ\AppData\Roaming\Claude\claude_desktop_config.json` | 支持 `${workspaceFolder}` |
 | **[codex](https://developers.openai.com/codex/local-config/)** | **api** | `{"mcpServers":{`<br>`"github":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`github"],`<br>`"env":{"GITHUB_`<br>`PERSONAL_ACCESS_`<br>`TOKEN":"ghp_xxx"}}}}` | 🔑 [获取 Token](https://github.com/settings/tokens) |
 |  | **备注** | `{"mcpServers":{`<br>`"github":{`<br>`"command":"npx",`<br>`"args":["-y",`<br>`"@modelcontext`<br>`protocol/server-`<br>`github"],`<br>`"env":{"GITHUB_`<br>`PERSONAL_ACCESS_`<br>`TOKEN":"${env:`<br>`GITHUB_TOKEN}"}}}}` | 同上 |
